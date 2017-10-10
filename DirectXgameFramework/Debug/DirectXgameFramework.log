@@ -1,0 +1,13 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (DirectX Game Framework.vcxproj, DirectXgameFramework.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Window.cpp
+  MyGame.cpp
+  Main.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\memory(1630): error C2664: 'Game::Game(Game &&)': 引数 1 を 'HINSTANCE' から 'int' へ変換できません。
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\memory(1630): note: この変換が可能なコンテキストはありません。
+  c:\users\s162190\documents\2years\framework\3d game framework 2017-06\directxgameframework\main.cpp(37): note: コンパイル対象の関数 テンプレート インスタンス化 'std::unique_ptr<Game,std::default_delete<_Ty>> std::make_unique<Game,HINSTANCE&,int&>(HINSTANCE &,int &)' のリファレンスを確認してください
+          with
+          [
+              _Ty=Game
+          ]
+  Game.cpp
+  コードを生成中...
